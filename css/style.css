@@ -1,0 +1,62 @@
+#bannerSection {
+    background-image: url('../img/banner.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    color: #fff;
+    padding: 108px 0 0px 0;
+}
+.webLogo{
+    width:50px;
+    height:28px;
+}
+.bg_Banner_Content {
+    min-height: 540px;
+    background-color:rgba(23, 162, 184, 0.5607843137254902);
+}
+
+#authore img {
+    margin-top: -75px;
+    width:120px;
+    height:120px;
+}
+
+#authore .card{
+    transition: .3s all ease;
+}
+#authore .card:hover{
+    background: #17A2B8 !important;
+    color: #fff;
+}
+#authore .card:hover a .fa{
+    color: #fff !important;
+}
+#authore .card a{
+    text-decoration: none;
+    font-size: 20px !important;
+}
+
+.magrin {
+    min-height: 400px;
+    background: #ddd;
+}
+
+@media(max-width:1200px) {
+    .bg_Banner_Content h2 {
+        font-size: 4rem;
+    }
+
+    #bannerSection .bg_Banner_Content {
+        min-height: 450px;
+    }
+}
+
+@media(max-width:991px) {
+    .bg_Banner_Content h2 {
+        font-size: 3rem;
+        margin-top: 25px;
+    }
+    .contactDescription{
+        margin-top: 0 !important;
+    }
+}
